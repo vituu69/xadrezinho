@@ -18,5 +18,10 @@ namespace Corse.Xadrez_Console.Tabuleiro {
             this.Tab = tab;
         }
 
+        public Peca(Tabuleiro tab, Cor cor)
+        {
+            Tab = tab;
+            this.cor = cor;
+        }
     }
 }
